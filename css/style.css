@@ -349,3 +349,279 @@ header{
     width: 155px;
     margin: 0 auto 20px;
 }
+
+.engeneers{
+    min-height: 970px;
+    padding: 100px 0;
+}
+
+.fly-text-engeneers{
+    position: absolute;
+    width: 1000px;
+
+    text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+
+    transform: rotate(-90deg) translateX(0px) translateY(-550px);
+
+    color: #ffffff;
+}
+
+.engeneers-block{
+
+}
+
+.engeneer-card{
+    background: #171717;
+    width: 260px;
+
+    margin: 30px auto;
+}
+
+.card-image{
+    padding: 30px 65px;
+}
+
+.round{
+    border-radius: 90px;
+}
+
+.card-text{
+    text-align: center;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+
+    color: white;
+
+    padding: 25px 0 85px 0;
+}
+
+.form-section{
+    background: #171717;
+
+    min-height: 400px;
+}
+
+.fly-text-form{
+    position: absolute;
+    width: 1000px;
+
+    text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+
+    transform: rotate(-90deg) translateX(250px) translateY(-550px);
+
+    color: #f8ad11;
+}
+
+.form-block{
+    width: 500px;
+    padding-top: 50px;
+
+    margin: 0 auto;
+}
+
+.input-custum{
+    width: 100%;
+
+    background: transparent;
+
+    border: none;
+    padding: 13px 15px 7px;
+
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 16px;
+
+    color: white;
+
+    border-bottom: 2px solid #c8c6c6;
+}
+
+.input-custum::placeholder{
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 16px;
+
+    opacity: 0.8;
+
+    color: white;
+}
+
+.input-custum:active, .input-custum:hover, .input-custum:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.input-file{
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 16px;
+
+    color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border-radius: 3px;
+    background: #f8ad11;
+    display: inline-block;
+    padding: 4px 8px;
+
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 12px;
+
+    color:  black;
+    cursor: pointer;
+}
+
+.input-custum-place{
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 16px;
+
+    opacity: 0.8;
+
+    color: white;
+}
+
+.input-custum-div{
+    align-items: center;
+    padding: 11px 15px 5px;
+    border-bottom: 2px solid #c8c6c6;
+}
+
+.input-custum-button{
+    border: none;
+
+    background: #f8ad11;
+    color: white;
+
+    padding: 12px 0px;
+    border-radius: 3px;
+
+    text-align: center;
+    font-family: "Montserrat Regular", sans-serif;
+    font-size: 14px;
+
+    margin: 60px auto 0;
+
+    width: 245px;
+
+    max-width: 245px;
+
+    transition: 200ms ease-in-out;
+}
+
+.submit-center{
+    width: 245px;
+
+    margin: 0 auto;
+}
+
+.input-custum-button:hover{
+    cursor: pointer;
+
+    background: #c58b0d;
+}
+
+.input-custum-button:active, .input-custum-button:hover, .input-custum-button:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.reviews{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 600px;
+}
+
+.fly-text-reviews{
+    position: absolute;
+    width: 1000px;
+
+    text-align: left;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+
+    transform: rotate(-90deg) translateX(240px) translateY(-550px);
+
+    color: white;
+}
+
+.review-img{
+    width: 74px;
+    height: 74px;
+}
+
+.review-image{
+    padding: 20px 50px;
+}
+
+.blog-block{
+    align-items: center;
+}
+
+.review-text{
+    padding: 36px 80px 36px 30px;
+
+    text-align: justify;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 16px;
+
+    color: white;
+}
+
+.map{
+    padding: 70px 0;
+    min-height: 490px;
+}
+
+footer{
+    padding: 20px;
+    height: 70px;
+    background: #171717;
+
+    align-items: center;
+}
+
+.map-text{
+    text-align: justify !important;
+    font-family: "Montserrat Medium", sans-serif;
+    font-size: 18px;
+
+    color: white;
+}
+
+.map-map{
+    width: 400px;
+    height: 300px;
+
+    background: white;
+}
+
+.map-center{
+    align-items: center;
+}
+
+.social{
+    float: right;
+    align-items: center;
+}
+
+.social-icon{
+    height: 31px;
+    width: 31px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    transition: 200ms ease-in-out;
+}
+
+.social-icon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*<p><input class="input-custum" type="file" required placeholder="Файл png"></p>*/
